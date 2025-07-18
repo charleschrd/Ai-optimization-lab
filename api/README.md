@@ -64,6 +64,9 @@ curl -X POST http://localhost:8000/v1/completions \
      -H "Content-Type: application/json" \
      -d '{"prompt":"Bonjour","generation":{"max_tokens":60}}'
 ```
+This is a snapshot of a successful training API request.
+
+![API request](./Answer_Api.png)
 
 ---
 
@@ -93,7 +96,9 @@ curl -X POST http://localhost:8000/v1/completions \
        -H "Content-Type: application/json" \
        -d '{"prompt":"Il était une fois"}'
   ```
+This is a snapshot of the API documentation.
 
+![API doc](./API_doc.png)
 * Documentation interactive : [http://localhost:8000/docs](http://localhost:8000/docs). Integrable dans n8n via un nœud HTTP.
 
 ---
