@@ -14,7 +14,7 @@ python inference/generate.py \
   --max_tokens 80 \
   --temperature 0.8 \
   --do_sample
-````
+```
 
 ---
 
@@ -46,7 +46,5 @@ python inference/generate.py --prompt "Once upon a time" --max_tokens 60 --tempe
   ```
 * Paramètres modifiables : longueur, température, top‑p, etc.
 * Ajoutez `--out_file` pour sauvegarder chaque sortie.
-
-````
 
 ---
