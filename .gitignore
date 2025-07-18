@@ -1,0 +1,9 @@
+# --- Logs TensorBoard ---
+training/logs/
+
+# --- Checkpoints et poids volumineux ---
+training/model_output/
+training/tiny-gpt2-finetuned/
+*.safetensors
+*.bin
+*.pt

@@ -55,6 +55,8 @@ This project runs fully **on-premise**, leveraging a custom GPU virtualized envi
 ```bash
 ai-optimization-lab/
 ├── training/               # LLM training scripts
+├── inference/              # CLI text generation
+├── api/                    # FastAPI service
 ├── pruning/                # Model pruning experiments
 ├── distillation/           # Teacher-student compression
 ├── quantization/           # INT8/FP16 inference optimizations
@@ -98,8 +100,10 @@ python train_tiny_gpt.py
 
 - [x] GPU passthrough & Docker GPU-ready
 - [x] Fine-tune DistilGPT2 locally
-- [ ] ONNX + INT8 quantization
+- [x] Quick API/Tensorboard 
+- [ ] ONNX + INT8 quantization -> latency bench
 - [ ] Knowledge distillation pipeline
+- [ ] Pruning-aware retraining
 - [ ] HLS model conversion with Vivado/Vitis AI
 - [ ] Streamlit/Grafana-based model metrics dashboard
 
