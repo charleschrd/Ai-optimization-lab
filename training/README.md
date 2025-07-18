@@ -2,7 +2,7 @@
 
 This is a snapshot of a successful training session performing on a local VM using GPU passthrough.
 
-![Training in progress](./training_screenshot.png)
+![Training in progress](./Training.png)
 
 ---
 
